@@ -1,0 +1,63 @@
+body{
+	background-color: #333;
+	color: white;
+}
+
+
+
+div.cison_container{
+	position: absolute;
+	width: 300px;
+	padding-top: 15px;
+	border: solid 1px #ccc;
+	text-align: center;
+}
+
+div.submit_container{
+	position: absolute;
+	left: 400px;
+	text-align: center;
+}
+
+div.predictions_container {
+	width: 300px;
+	min-height: 50px;
+	left: 650px;
+	top: 10px;
+	padding-top: 15px;
+	position: absolute;
+	display: block;
+	text-align: left;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+
+
+
+div.editable {
+	border: solid 1px #ccc;
+	width: 50px;
+	height: 25px;
+	text-align: center;
+	margin: 5px auto 20px auto;
+}
+div.editable.o {
+	width: 240px;
+}
+div.editable.n {
+	width: 240px;
+	height: 60px;
+}
+
+
+
+div.submit {
+	border: solid 1px #fff;
+	background-color: #555;
+	display: block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
